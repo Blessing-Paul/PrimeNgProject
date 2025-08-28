@@ -11,10 +11,17 @@ import Lara from '@primeng/themes/lara';
 // Other PrimeNG modules can be imported as needed
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
+import { AccordionModule } from 'primeng/accordion';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, ButtonModule, CardModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ButtonModule,
+    CardModule,
+    AccordionModule,
+  ],
   providers: [
     provideAnimationsAsync(),
     providePrimeNG({
