@@ -1,2 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+@plugin "tailwindcss-primeui";
+
+:root {
+  --p-primary-color: #8b5cf6;
+  --p-primary-500: #8b5cf6;
+  --p-primary-600: #7c3aed;
+}
